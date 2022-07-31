@@ -75,7 +75,21 @@ alien_0 = {
     'y_position': 25,
     'speed': "medium",
 }
-print(alien_0)
 
-del alien_0['speed']
-print(alien_0)
+point_value = alien_0.get('z_position', 'No point value assigned!')
+
+print(point_value)
+
+
+
+favorite_languages = {
+    'jen' : ['python', 'ruby'],
+    'sarah' : ['c'],
+    'edward' : ['ruby', 'go'],
+    'phil' : ['python', 'haskell'],
+}
+
+for name , languages in favorite_languages.items():
+    print(f"\n {name.title()}'s  favorite languages are: ")
+    for langusge in languages:
+        print(f"\t{langusge.title()}")
