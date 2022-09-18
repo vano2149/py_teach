@@ -1,7 +1,7 @@
 """
 Counting.py file!
 """
-'''
+
 current_number = 0
 # До тех пор пока ...
 while current_number < 10:
@@ -9,8 +9,10 @@ while current_number < 10:
     if current_number % 2 == 0:
         continue
     print(current_number)
-'''
+
+"""
 x = 1
 while x <= 5:
     print(x)
     x += 1
+"""

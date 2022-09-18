@@ -26,7 +26,7 @@ while active:
         x = int(x)
         y = int(y)
         print(int(x - y))
-    
+
     elif sign == "*" and sign != "quit" and x != "quit" and y != "quit":
         x = int(x)
         y = int(y)
